@@ -1,0 +1,66 @@
+* {
+    margin:10px;
+    padding:10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    text-align: center;
+    color:red;
+    font-size: 55px;
+}
+
+body {
+    background-color:wheat;
+}
+
+.goom {
+    width: 140px;
+    height: 130px;
+    float: left;
+}
+
+p {
+    display:inline-block;
+    font-size:25px;
+    color:blue;
+}
+
+.bomb {
+    width: 140px;
+    height: 130px;
+    float:left;
+}
+
+.bobs-info {
+    display: inline-block;
+    font-size: 25px;
+    color:blue;
+}
+
+.cheep {
+    width: 140px;
+    height: 130px;
+    float:left;
+}
+
+.cheep-info {
+    display: inline-block;
+    font-size: 25px;
+    color:blue;
+}
+
+#website-total {
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}

@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "name": "Jose",
+            "age": 5,
+            "isActive": true,
+            "friends": [
+                "john",
+                "adam",
+                "baden"
+            ],
+            "address": {
+                "street": "321 heber ave",
+                "city": "costa mesa",
+                "state": "california"
+            }
+        }
+    ]
+}

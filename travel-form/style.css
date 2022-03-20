@@ -1,0 +1,11 @@
+body {
+    background-color:bisque;
+    text-align: center;
+}
+img {
+    position:relative;
+    top:5px;
+    left:5px;
+    width: 800px;
+    height: 500px;
+}

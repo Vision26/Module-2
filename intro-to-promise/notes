@@ -1,0 +1,13 @@
+# Promise
+    * Promises are for handling asynchronous code
+    * A Javascript Constructor: new Promise()
+    * Promises are eager, there pushed to the front of the line to be executed 
+    as soon as data is back from being requested, then they get executed
+
+
+    IN DEPTH
+
+    *3 states of a Promise():
+    * 1. <pending>
+    * 2. Resolved, if resolved youll be using .then()
+    * 3. or Rejected, if rejected youll be using .catch() that handles errors

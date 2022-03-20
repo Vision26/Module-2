@@ -1,0 +1,97 @@
+#box-a {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: bisque;
+    transition: background-color 1000ms ease-in 500ms, width 3000ms linear, border 3000ms ease-in  ;
+}
+
+#box-a:hover {
+    background-color: chocolate;
+    width:200px;
+    border:1px solid crimson;
+}
+
+#box-b {
+    width: 125px;
+    height: 125px;
+    border:1px solid black;
+    background-color:brown;
+    transition: background-color 1000ms ease-in 500ms, height 3000ms linear, border 3000ms ease-in;
+}
+
+#box-b:hover {
+    background-color: maroon;
+    height: 250px;
+    border:1px solid goldenrod;
+}
+
+#box-c {
+    width: 150px;
+    height:150px;
+    border: 1px solid black;
+    background-color: indianred;
+    transition: background-color 1000ms ease-in 500ms, width 3000ms linear, height 3000ms linear, border-radius 3000ms ease-in;
+}
+
+#box-c:hover {
+    background-color: pink;
+    width: 165px;
+    height:165px;
+    border-radius:6px;
+}
+
+#box-d {
+    width: 175px;
+    height: 175px;
+    border:1px solid black;
+    background-color: lightblue;
+    transition: background-color 1000ms ease-in 500ms, width 2000ms linear, height 2000ms linear, border-radius 2000ms ease-in, box-shadow 2000ms ease-in;
+}
+
+#box-d:hover {
+    background-color: cadetblue;
+    width: 185px;
+    height: 200px;
+    border-radius:10px;
+    box-shadow: 10px 5px 5px black; 
+}
+
+#box-e {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: violet;
+    transition: background-color 1000ms ease-in 500ms, width 4000ms linear, border-radius 4000ms ease-in, box-shadow 4000ms ease-in, opacity 4000ms ease-in;
+}
+
+#box-e:hover {
+    background-color: purple;
+    width:400px;
+    border-radius: 15px;
+    box-shadow:15px 10px 10px palevioletred;
+    opacity: 0.1;
+}
+
+#box-f {
+    width: 1250px;
+    height:75px;
+    border:1px solid black;
+    background-color:midnightblue;
+    transition: background-color 1000ms ease-in 500ms, height 3000ms linear, border 3000ms ease-in;
+}
+
+#box-f:hover {
+    background-color: dodgerblue;
+    height:400px;
+    border: 50px solid black;
+}
+/* transition: background-color 5000ms linear 1s, width 3000ms linear , height 3000ms linear ; */
+/* transition-property: background-color;
+    transition-duration: 3000ms;
+    transition-timing-function: ease-in;
+    transition-delay:4000ms; */
+/* width: 200px;
+height: 200px;
+border: 1px solid black;
+background-color: firebrick; */

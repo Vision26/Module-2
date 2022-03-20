@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background-image: url('https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/cs_0108_NF_Blackhole_2.jpg?itok=m22bIteQ');
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr 3fr ;
+    grid-row-gap: 3px;
+    grid-column-gap: 3px;;
+
+}
+
+.grey {
+    grid-column: 1 / 2;
+    padding: 50px;
+    background-color: darkslategrey;
+    opacity: .6;
+}
+
+.h1-a {
+    position:relative;
+    top:20px;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h5-a {
+    text-align: center;
+    color:white;
+    position: relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top:33px;
+    left:-244px;
+    font-size: 18px;
+    opacity: none;
+}
+
+.h1-a:hover {
+    cursor: pointer;
+    color:gold;
+}
+
+
+
+.black {
+    grid-column: 1 / 2;
+    grid-row: 2 / 6;
+    padding: 50px;
+    background-color: black;
+    opacity: .7;
+}
+
+.black > .a1 {
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.a1 > .p0 > .a1 {
+    color:wheat;
+}
+
+.line-a {
+    position:relative;
+    top:15px;
+}
+
+.b2 > .h3-a {
+    position:relative;
+    top:25px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.b2 > .p1 {
+    position:relative;
+    top:45px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+}
+
+.b3 > .h3-b {
+    position:relative;
+    top:60px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.b3 > .p2 {
+    position:relative;
+    top:80px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+}
+.maroon {
+    grid-column: 2 / 3;
+    grid-row: 2 / 6;
+    padding: 50px;
+    background-color: maroon;
+    opacity: .8;
+}
+
+.navigation > ul {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+
+.white {
+
+    text-decoration: none;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.white:hover {
+    cursor: pointer;
+    color: wheat;
+}
+
+.white-a {
+    padding: 50px;
+    background-color: darkslategrey;
+    grid-column: 2 / 3;
+    grid-row: 6 / 10;
+    opacity: 0.7;
+}
+
+.links {
+    color:white;
+    list-style-type: none;
+    text-decoration: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.green {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding:50px;
+    background-color: darkslategrey;
+    opacity: 0.7;
+}
+
+.yellow {
+    grid-column: 1 / 2;
+    grid-row: 6 / 10;
+    background-color: darkslategrey;
+    padding:50px;
+    opacity: 0.7;
+}
+
+.purple {
+    grid-column: 1 / 2;
+    grid-row: 10 / 14;
+    padding:50px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.pink {
+    grid-column: 2 / 3;
+    grid-row: 10 / 14;
+    padding:50px;
+    background-color: maroon;
+    opacity: 0.7;
+}
+
+.red {
+    grid-column: 1 / 3;
+    padding:50px;
+    background-color: darkslategrey;
+    opacity:0.7;
+}
+
+.teal {
+    grid-column: 1 / -1;
+    padding:50px;
+    background-color: darkslategrey;
+    opacity: 0.7;
+}
+
+@media (max-width: 900px){
+    body {
+        background-image: url('https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/cs_0108_NF_Blackhole_2.jpg?itok=m22bIteQ');
+    }
+    
+    .container {
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(10, 75px);
+        grid-row-gap: 3px;
+        grid-column-gap: 3px;;
+        grid-auto-rows: minmax(250px, auto);
+    }
+    
+    .grey {
+        grid-column: 1 / 2;
+        padding: 50px;
+        background-color: darkslategrey;
+        opacity: .6;
+    }
+    
+    .h1-a {
+        position:relative;
+        top:20px;
+        text-align: center;
+        color:white;
+        font-size: 20px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .h5-a {
+        text-align: center;
+        color:white;
+        position: relative;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        top:33px;
+        left:-244px;
+        font-size: 18px;
+        opacity: none;
+    }
+    
+    .h1-a:hover {
+        cursor: pointer;
+        color:gold;
+    }
+    
+    
+    
+    .black {
+        grid-column: 1 / 2;
+        grid-row: 2 / 6;
+        padding: 50px;
+        background-color: black;
+        opacity: .7;
+    }
+    
+    .black > .a1 {
+        color:white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+    }
+    
+    .a1 > .p0 > .a1 {
+        color:wheat;
+    }
+    
+    .line-a {
+        position:relative;
+        top:15px;
+    }
+    
+    .b2 > .h3-a {
+        position:relative;
+        top:25px;
+        color:white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+    }
+    
+    .b2 > .p1 {
+        position:relative;
+        top:45px;
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:white;
+    }
+    
+    .b3 > .h3-b {
+        position:relative;
+        top:60px;
+        color:white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+    }
+    
+    .b3 > .p2 {
+        position:relative;
+        top:80px;
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:white;
+    }
+    .maroon {
+    
+        grid-row: 3 / 9;
+        padding: 50px;
+        background-color: maroon;
+        opacity: .8;
+    }
+    
+    .navigation > ul {
+        display:flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        list-style-type: none;
+        margin:0;
+        padding: 0;
+    }
+    
+    .white {
+    
+        text-decoration: none;
+        color:white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .white:hover {
+        cursor: pointer;
+        color: wheat;
+    }
+    
+    .white-a {
+        padding: 50px;
+        background-color: darkslategrey;
+        grid-column: 2 / 3;
+        grid-row: 6 / 10;
+        opacity: 0.7;
+    }
+    
+    .links {
+        color:white;
+        list-style-type: none;
+        text-decoration: none;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .green {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        padding:50px;
+        background-color: darkslategrey;
+        opacity: 0.7;
+    }
+    
+    .yellow {
+        grid-column: 1 / 2;
+        grid-row: 6 / 10;
+        background-color: darkslategrey;
+        padding:50px;
+        opacity: 0.7;
+    }
+    
+    .purple {
+        grid-column: 1 / 2;
+        grid-row: 10 / 14;
+        padding:50px;
+        background-color: black;
+        opacity: 0.7;
+    }
+    
+    .pink {
+        grid-column: 2 / 3;
+        grid-row: 10 / 14;
+        padding:50px;
+        background-color: maroon;
+        opacity: 0.7;
+    }
+    
+    .red {
+        grid-column: 1 / 3;
+        padding:50px;
+        background-color: darkslategrey;
+        opacity:0.7;
+    }
+    
+    .teal {
+        grid-column: 1 / -1;
+        padding:50px;
+        background-color: darkslategrey;
+        opacity: 0.7;
+    }
+}

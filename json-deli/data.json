@@ -1,0 +1,317 @@
+{
+    "appetizers": [
+        {
+            "carnita fries": {
+                "ingredients": [
+                    "fries",
+                    "carnitas",
+                    "cheese",
+                    "bbq sauce",
+                    "cilantro"
+                ]
+            }, 
+            "description":"a full stack plate of fries stacked with a pound of carnitas dipped in bbq"
+        },
+        {
+            "full stack nachos": {
+                "ingredients": [
+                    "chips",
+                    {
+                        "proteins": [
+                            "chicken",
+                            "carnitas",
+                            "asada",
+                            "pastor"
+                        ]
+                    },
+                    "sour creme",
+                    "beans",
+                    "pico",
+                    "guac"
+                ]
+            },
+            "description":"Nacho chips diversed in different types of protein, beans, guac, and pico"
+        },
+        {
+            "cheesy hashers": {
+                "ingredients": [
+                    "potatos hash balls",
+                    "cheese",
+                    "garlic spice",
+                    "nacho cheese"
+                ]
+            },
+            "description":"hash browns rolled in to balls dipped in melted cheese and stacked with nacho cheese"
+        }
+    ],
+    "cold sanwiches": [
+        {
+            "turkey ham": {
+                "ingredients": [
+                    {
+                        "bread": [
+                            "wheat",
+                            "italian",
+                            "cheese jalapeno"
+                        ]
+                    },
+                    "turkey ham",
+                    {
+                        "cheese": [
+                            "american",
+                            "provolone",
+                            "swiss"
+                        ]
+                    },
+                    {
+                        "veggies": [
+                            "lettuce",
+                            "cucumbers",
+                            "olives",
+                            "tomatoes",
+                            "spinach",
+                            "onions"
+                        ]
+                    },
+                    {
+                        "dressing": [
+                            "ranch",
+                            "chipotle south west",
+                            "garlic"
+                        ]
+                    },
+                    "salt",
+                    "pepper"
+                ]
+            },
+            "description":"a turkey ham sandwhich filled with delicious meats and veggies"
+        },
+        {
+            "pastrami sub": {
+                "ingredients": [
+                    {
+                        "bread": [
+                            "wheat",
+                            "italian",
+                            "cheese jalapeno"
+                        ]
+                    },
+                    {
+                        "cheese": [
+                            "american",
+                            "provolone",
+                            "swiss"
+                        ]
+                    },
+                    "pastrami",
+                    {
+                        "veggies": [
+                            "lettuce",
+                            "cucumbers",
+                            "olives",
+                            "tomatoes",
+                            "spinach",
+                            "onions"
+                        ]
+                    },
+                    {
+                        "dressing": [
+                            "ranch",
+                            "chipotle south west",
+                            "garlic"
+                        ]
+                    },
+                    "salt",
+                    "pepper"
+                ]
+            },
+            "description":"a full stack sandwhich filled with scrumptious pastrami meat and veggies"
+        },
+        {
+            "blt": {
+                "ingredients": [
+                    {
+                        "bread": [
+                            "wheat",
+                            "italian",
+                            "cheese jalapeno"
+                        ]
+                    },
+                    {
+                        "cheese": [
+                            "american",
+                            "provolone",
+                            "swiss"
+                        ]
+                    },
+                    "bacon",
+                    {
+                        "veggies": [
+                            "lettuce",
+                            "cucumbers",
+                            "olives",
+                            "tomatoes",
+                            "spinach",
+                            "onions"
+                        ]
+                    },
+                    {
+                        "dressing": [
+                            "ranch",
+                            "chipotle south west",
+                            "garlic"
+                        ]
+                    },
+                    "salt",
+                    "pepper"
+                ]
+            },
+            "description":"a bacon, lettuce, and tomato sandwhich but can be customed any way you wanted"
+        }
+    ],
+    "hot sandwiches": [
+        {
+            "bacon chicken ranch sub": {
+                "ingredients": [
+                    {
+                        "bread": [
+                            "wheat",
+                            "italian",
+                            "cheese jalapeno"
+                        ]
+                    },
+                    {
+                        "cheese": [
+                            "american",
+                            "provolone",
+                            "swiss"
+                        ]
+                    },
+                    {
+                        "protein": [
+                            "chicken",
+                            "bacon"
+                        ]
+                    },
+                    {
+                        "veggies": [
+                            "lettuce",
+                            "cucumbers",
+                            "olives",
+                            "tomatoes",
+                            "spinach",
+                            "onions"
+                        ]
+                    },
+                    "ranch",
+                    "salt",
+                    "pepper"
+                ]
+            },
+            "buffalo": {
+                "ingredients": [
+                    {
+                        "bread": [
+                            "wheat",
+                            "italian",
+                            "cheese jalapeno"
+                        ]
+                    },
+                    {
+                        "cheese": [
+                            "american",
+                            "provolone",
+                            "swiss"
+                        ]
+                    },
+                    "buffalo chicken",
+                    {
+                        "veggies": [
+                            "lettuce",
+                            "cucumbers",
+                            "olives",
+                            "tomatoes",
+                            "spinach",
+                            "onions"
+                        ]
+                    },
+                    "buffalo sauce",
+                    "salt",
+                    "pepper"
+                ]
+            },
+            "meatball marinara sub": {
+                "ingredients": [
+                    {
+                        "bread": [
+                            "wheat",
+                            "italian",
+                            "cheese jalapeno"
+                        ]
+                    },
+                    {
+                        "cheese": [
+                            "american",
+                            "provolone",
+                            "swiss"
+                        ]
+                    },
+                    "meat ball",
+                    {
+                        "veggies": [
+                            "lettuce",
+                            "cucumbers",
+                            "olives",
+                            "tomatoes",
+                            "spinach",
+                            "onions"
+                        ]
+                    },
+                    "marinara sauce",
+                    "salt",
+                    "pepper"
+                ]
+            }
+        }
+    ],
+    "desserts": [
+        {
+            "fudge brownies": {
+                "ingredients": [
+                    "chocolate",
+                    "milk",
+                    "flour",
+                    "chocolate chips"
+                ]
+            }
+        },
+        {
+            "banana split": {
+                "ingredients": [
+                    "bananas",
+                    {
+                        "ice cream flavors": [
+                            "vanilla",
+                            "chocolate",
+                            "strawberry"
+                        ]
+                    },
+                    "chocolate sauce"
+                ]
+            }
+        },
+        {
+            "raspberry cake": {
+                "ingredients": ["raspberry", "flour", "milk", "vanilla flavor", "raspberry sauce"]
+            }
+        }
+    ],
+    "drinks": [
+        "coke",
+        "dr. pepper",
+        "lemonade",
+        "vitamin water",
+        "sprite",
+        "mountain dew"
+    ]
+}
